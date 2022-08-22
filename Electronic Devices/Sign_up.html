@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp</title>
+</head>
+<style>
+    *{
+        box-sizing: border-box;
+  font-family: "Poppins" , sans-serif;
+    }
+    body{
+        margin:1px;
+        padding: 0%;
+        background-color: cyan;
+        background-image:url(./images/arcode-acd-BKwECQ5MxM0-unsplash.jpg);
+    display: flex;
+    justify-content: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    input{
+        border: 0.8px solid blue;
+        border-radius: 3.2px;
+        margin: 1px;
+        width: 350px;
+        font-size: 18px;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif , Times, serif;
+        align-items: center; 
+        text-align: center;
+        opacity: 0.6;
+        background-color: ghostwhite;
+
+    }
+    .main{
+        display: flex;
+        align-items: center;
+        font-size: 1.5rem;
+        background-color:rgb(123, 135, 166);
+        opacity: 0.8;
+        border-radius: 6px;
+  padding: 20px 60px 30px 40px;
+  box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.2);
+        
+    }
+    label{
+        display: flex;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 700;
+        opacity: 1;
+    }
+    .butt  {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        opacity: 0.8;
+    }
+    .butt button{
+        width: 100%;
+        padding: 7px;
+        font-size: 20px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .h1{
+        display: flex;
+        justify-content: center;
+       }
+ 
+   
+</style>
+<body>
+   <div class="h1">
+    <a style="color:rgb(255, 255, 255); " href="./Home.html";><h1><<==Click to go back Home</h1></a>
+   </div>
+   <div class="details" style="color:antiquewhite ;position: absolute; margin-top: 20rem;text-align: left;width: 100%;">
+    <h1>Name: Jai Arora</h1>
+    <h1>Email: jaiarora2886@gmail.com</h1>
+    <h1>Mobile: 7986962886</h1>
+
+</div>
+<div class="main">
+        
+    <fieldset style="text-align:center ; font-weight: bold;">
+        <legend style="font-size:40px;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Signup</legend>
+    <!-- <form style="background-co;" method="post" action=""> -->
+        
+        <fieldset>
+        <div class="main1"> 
+            <label for="fname">First Name :</label>
+            <input type="text" name="fname" value="" placeholder="Enter your First Name" >
+        </div>
+    </fieldset>
+    <fieldset>
+
+        <div>
+        <label for="lname">Last Name :</label>
+        <input type="text" name="lname" value="" placeholder="Enter your Last Name">
+        </div>
+    </fieldset>
+    <fieldset>
+
+
+
+        <div>
+        <label for="mobile">Mobile Number :</label>
+        <input type="number" name="mobile" value="" maxlength="10" required>
+        </div>
+    </fieldset>
+    <fieldset>
+
+        
+        <div>
+            <label for="myemail">E-Mail Id: </label>
+            <input type="email" name="myemail" value="">
+        </div>
+    </fieldset>
+    <fieldset>
+
+        <div>
+            <label for="pass">Password: </label>
+            <input type="password" name="pass">
+        </div>
+    </fieldset>
+    <fieldset>
+
+        
+        <div>
+            <label for="cpass">Confirm Password: </label>
+            <input type="password" name="cpass">
+        </div>
+    </fieldset>
+    <fieldset>
+        
+        <div class="butt" >
+            <button type="submit" >Submit</button>
+        </div>
+    </fieldset>
+    </form>
+    </fieldset>
+</div>
+</body>
+</html>
